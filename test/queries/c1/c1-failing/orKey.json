@@ -1,0 +1,33 @@
+{
+    "title": "or should have 1 key has 2",
+    "query": {
+        "WHERE": {
+            "OR" : [{
+                "IS" : {
+                    "courses_dept" : "*sc"
+                },
+                "GT" : {
+                    "courses_avg" : 90
+                }
+
+            }]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_instructor",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

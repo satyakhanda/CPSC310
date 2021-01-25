@@ -1,0 +1,36 @@
+{
+    "title": "basic AND that works",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "courses_avg": 90
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "adhe"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_instructor",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"adhe","courses_instructor":"","courses_avg":90.02,"courses_title":"dev wkshp/sem","courses_pass":62,"courses_fail":0,"courses_audit":0,"courses_uuid":"19184","courses_year":1900},{"courses_dept":"adhe","courses_instructor":"vanwynsberghe, robert","courses_avg":90.16,"courses_title":"adul educ","courses_pass":31,"courses_fail":0,"courses_audit":0,"courses_uuid":"68557","courses_year":2015},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":90.17,"courses_title":"com adult educ","courses_pass":29,"courses_fail":0,"courses_audit":0,"courses_uuid":"75628","courses_year":2011},{"courses_dept":"adhe","courses_instructor":"falk, clifford","courses_avg":90.18,"courses_title":"adul educ","courses_pass":11,"courses_fail":0,"courses_audit":0,"courses_uuid":"78875","courses_year":2007},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":90.5,"courses_title":"com adult educ","courses_pass":18,"courses_fail":0,"courses_audit":0,"courses_uuid":"79479","courses_year":2012},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":90.72,"courses_title":"com adult educ","courses_pass":25,"courses_fail":0,"courses_audit":0,"courses_uuid":"91932","courses_year":2014},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":90.82,"courses_title":"dev wkshp/sem","courses_pass":33,"courses_fail":0,"courses_audit":0,"courses_uuid":"68543","courses_year":2015},{"courses_dept":"adhe","courses_instructor":"","courses_avg":90.85,"courses_title":"com adult educ","courses_pass":34,"courses_fail":0,"courses_audit":0,"courses_uuid":"46425","courses_year":1900},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":91.29,"courses_title":"com adult educ","courses_pass":28,"courses_fail":0,"courses_audit":0,"courses_uuid":"19187","courses_year":2016},{"courses_dept":"adhe","courses_instructor":"","courses_avg":91.33,"courses_title":"com adult educ","courses_pass":18,"courses_fail":0,"courses_audit":0,"courses_uuid":"85075","courses_year":1900},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":91.33,"courses_title":"com adult educ","courses_pass":18,"courses_fail":0,"courses_audit":0,"courses_uuid":"85074","courses_year":2012},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":91.48,"courses_title":"com adult educ","courses_pass":23,"courses_fail":0,"courses_audit":0,"courses_uuid":"46423","courses_year":2009},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":92.54,"courses_title":"dev wkshp/sem","courses_pass":26,"courses_fail":0,"courses_audit":0,"courses_uuid":"68540","courses_year":2015},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":93.33,"courses_title":"dev wkshp/sem","courses_pass":33,"courses_fail":0,"courses_audit":0,"courses_uuid":"19182","courses_year":2016},{"courses_dept":"adhe","courses_instructor":"bishundayal, deonarine","courses_avg":96.11,"courses_title":"dev wkshp/sem","courses_pass":27,"courses_fail":0,"courses_audit":0,"courses_uuid":"68539","courses_year":2015}]
+}

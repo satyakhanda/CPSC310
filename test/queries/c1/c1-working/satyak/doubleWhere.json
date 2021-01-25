@@ -1,0 +1,336 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_audit": 9
+            }
+        },
+        "WHERE" : {
+            "IS" : {
+                "courses_title": "18*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_title"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept":"engl",
+            "courses_avg":53.5,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":53.5,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":60.86,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":63.67,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":64.25,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":67.09,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":68.5,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":69.18,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":70.57,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":71.43,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":71.75,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":72,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":72.72,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":73,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":73.5,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":73.73,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":73.79,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":73.81,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":73.97,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":74,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":74.27,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":74.42,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":74.77,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":75.23,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":75.28,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":75.3,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":75.32,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":75.57,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":76,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":76.44,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":76.55,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":76.72,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":76.81,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77.07,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77.38,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77.45,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77.58,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77.7,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":77.71,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":78.09,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":78.25,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":78.77,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":79.06,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":79.48,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":79.48,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":79.54,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":80,
+            "courses_title":"18th cent genre"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":80.2,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":80.2,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":80.23,
+            "courses_title":"18c genre"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":81,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":81.88,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":81.88,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":82.89,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":82.89,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":84.93,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":84.93,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":85.38,
+            "courses_title":"18 & 19 cent vis"
+        },
+        {
+            "courses_dept":"arth",
+            "courses_avg":85.38,
+            "courses_title":"18 & 19 cent vis"
+        }
+    ]
+}

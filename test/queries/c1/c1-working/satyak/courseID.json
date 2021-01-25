@@ -1,0 +1,253 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_audit": 9
+            }
+        },
+        "WHERE" : {
+            "IS" : {
+                "courses_id": "487"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_title",
+                "courses_audit",
+                "courses_pass",
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept":"wood",
+            "courses_avg":76.41,
+            "courses_title":"wood composites",
+            "courses_audit":0,
+            "courses_pass":29,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":76.41,
+            "courses_title":"wood composites",
+            "courses_audit":0,
+            "courses_pass":29,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":75.57,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":23,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":75.57,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":23,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":76.2,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":20,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":76.2,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":20,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":72.92,
+            "courses_title":"wood composites",
+            "courses_audit":0,
+            "courses_pass":49,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":72.92,
+            "courses_title":"wood composites",
+            "courses_audit":0,
+            "courses_pass":49,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":76.62,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":53,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":76.62,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":53,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":72.08,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":26,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":72.08,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":26,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":67.56,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":17,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":67.56,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":17,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":74.47,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":19,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"wood",
+            "courses_avg":74.47,
+            "courses_title":"glued wood prod",
+            "courses_audit":0,
+            "courses_pass":19,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"phil",
+            "courses_avg":90.33,
+            "courses_title":"directed reading",
+            "courses_audit":0,
+            "courses_pass":9,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"phil",
+            "courses_avg":90.33,
+            "courses_title":"directed reading",
+            "courses_audit":0,
+            "courses_pass":9,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"phil",
+            "courses_avg":86.57,
+            "courses_title":"directed reading",
+            "courses_audit":0,
+            "courses_pass":14,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"phil",
+            "courses_avg":86.62,
+            "courses_title":"directed reading",
+            "courses_audit":0,
+            "courses_pass":13,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":81.18,
+            "courses_title":"envr management",
+            "courses_audit":0,
+            "courses_pass":11,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":81.18,
+            "courses_title":"envr management",
+            "courses_audit":0,
+            "courses_pass":11,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":82.25,
+            "courses_title":"envr management",
+            "courses_audit":0,
+            "courses_pass":28,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":82.25,
+            "courses_title":"envr management",
+            "courses_audit":0,
+            "courses_pass":28,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":80.19,
+            "courses_title":"envr management",
+            "courses_audit":1,
+            "courses_pass":21,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":80.19,
+            "courses_title":"envr management",
+            "courses_audit":1,
+            "courses_pass":21,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":81.14,
+            "courses_title":"envr management",
+            "courses_audit":0,
+            "courses_pass":36,
+            "courses_id":"487"
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":81.14,
+            "courses_title":"envr management",
+            "courses_audit":0,
+            "courses_pass":36,
+            "courses_id":"487"
+        }
+    ]
+}

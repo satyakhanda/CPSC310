@@ -1,0 +1,14 @@
+
+{
+    "title": "Excess keys in query",
+    "query": {
+        "title": "Very invalid query",
+        "query": {
+            "OPTIONS": {}
+        },
+        "isQueryValid": false,
+        "result": "InsightError"
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

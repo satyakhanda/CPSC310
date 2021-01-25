@@ -1,0 +1,19 @@
+{
+    "title": "1",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "coursesavg"
+            ],
+            "ORDER": "coursesavg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "Insight Error"
+}

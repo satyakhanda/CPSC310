@@ -1,0 +1,16 @@
+{
+    "title": "Invalid Key in Column",
+    "query": {
+        "WHERE" : {},
+        "OPTIONS" : {
+            "COLUMNS" : [
+                "courses_average",
+                "courses_instructor"
+            ],
+            "ORDER" : "courses_avg"
+        }
+
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

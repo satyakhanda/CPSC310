@@ -1,0 +1,18 @@
+{
+    "title": "or must be objet",
+    "query": {
+        "WHERE": {
+            "OR": [
+                ""
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                ""
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

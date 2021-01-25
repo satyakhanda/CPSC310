@@ -1,0 +1,20 @@
+{
+    "title": "1",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": ""
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_instructor",
+                "courses_uuid"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result":[]
+}

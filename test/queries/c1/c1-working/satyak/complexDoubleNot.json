@@ -1,0 +1,65 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "NOT": {
+                    "AND": [
+                        {
+                            "AND": [
+                                {
+                                    "LT": {
+                                        "courses_year": 2018
+                                    }
+                                },
+                                {
+                                    "IS": {
+                                        "courses_uuid": "1126*"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "OR": [
+                                {
+                                    "IS": {
+                                        "courses_instructor": "sa*"
+                                    }
+                                },
+                                {
+                                    "GT": {
+                                        "courses_audit": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_uuid",
+                "courses_instructor",
+                "courses_year",
+                "courses_avg"
+            ],
+            "ORDER": "courses_year"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_uuid":"11265",
+            "courses_instructor":"satterfield, blair",
+            "courses_year":2012,
+            "courses_avg":83.6
+        },
+        {
+            "courses_uuid":"11260",
+            "courses_instructor":"satterfield, blair",
+            "courses_year":2012,
+            "courses_avg":82.89
+        }
+    ]
+}

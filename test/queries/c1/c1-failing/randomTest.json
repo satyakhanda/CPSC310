@@ -1,0 +1,32 @@
+{
+    "title": "Unexpected response status 400: Cannot read property 'GROUP' of undefined",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "NOT": {
+                        "IS": {
+                            "courses_dept": "*sc*"
+                        },
+                        "IS": {
+                            "courses_dept": "*sowk"
+                        }
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                ""
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result" : "InsightError"
+}

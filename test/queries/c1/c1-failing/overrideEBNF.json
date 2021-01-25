@@ -1,0 +1,30 @@
+{
+    "title": "SELECT dept, avg WHERE avg > 97",
+    "query": {
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_instructor",
+                "courses_uuid"
+            ],
+            "ORDER": "courses_uuid"
+        },
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_instructor",
+                "courses_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"spph","courses_avg":98.98,"courses_instructor":"","courses_id":"300"},{"courses_dept":"spph","courses_avg":98.98,"courses_instructor":"frank, erica","courses_id":"300"},{"courses_dept":"epse","courses_avg":97.29,"courses_instructor":"","courses_id":"421"},{"courses_dept":"epse","courses_avg":97.29,"courses_instructor":"cole, kenneth","courses_id":"421"},{"courses_dept":"epse","courses_avg":98.36,"courses_instructor":"","courses_id":"421"},{"courses_dept":"epse","courses_avg":98.7,"courses_instructor":"cole, kenneth","courses_id":"421"},{"courses_dept":"epse","courses_avg":98.08,"courses_instructor":"cole, kenneth","courses_id":"421"},{"courses_dept":"epse","courses_avg":98.76,"courses_instructor":"","courses_id":"449"},{"courses_dept":"epse","courses_avg":98.76,"courses_instructor":"grow, laura","courses_id":"449"},{"courses_dept":"epse","courses_avg":98.58,"courses_instructor":"","courses_id":"449"},{"courses_dept":"epse","courses_avg":98.58,"courses_instructor":"grow, laura","courses_id":"449"},{"courses_dept":"epse","courses_avg":97.41,"courses_instructor":"wilk, diana","courses_id":"449"},{"courses_dept":"epse","courses_avg":98.8,"courses_instructor":"grow, laura","courses_id":"449"},{"courses_dept":"educ","courses_avg":97.5,"courses_instructor":"morgan, tannis","courses_id":"500"},{"courses_dept":"nurs","courses_avg":98.21,"courses_instructor":"","courses_id":"509"},{"courses_dept":"nurs","courses_avg":98.21,"courses_instructor":"krist, jennifer","courses_id":"509"},{"courses_dept":"nurs","courses_avg":98.71,"courses_instructor":"","courses_id":"509"},{"courses_dept":"nurs","courses_avg":98.71,"courses_instructor":"brew, nancy","courses_id":"509"},{"courses_dept":"epse","courses_avg":98.45,"courses_instructor":"","courses_id":"519"},{"courses_dept":"epse","courses_avg":98.45,"courses_instructor":"cannon, joanna","courses_id":"519"},{"courses_dept":"math","courses_avg":97.25,"courses_instructor":"","courses_id":"525"},{"courses_dept":"math","courses_avg":97.25,"courses_instructor":"fraser, ailana","courses_id":"525"},{"courses_dept":"math","courses_avg":99.78,"courses_instructor":"","courses_id":"527"},{"courses_dept":"math","courses_avg":99.78,"courses_instructor":"gomez, jose","courses_id":"527"},{"courses_dept":"math","courses_avg":97.48,"courses_instructor":"","courses_id":"532"},{"courses_dept":"math","courses_avg":97.48,"courses_instructor":"karu, kalle","courses_id":"532"},{"courses_dept":"epse","courses_avg":97.41,"courses_instructor":"","courses_id":"534"},{"courses_dept":"epse","courses_avg":97.78,"courses_instructor":"amaral, deborah;ford, laurie","courses_id":"534"},{"courses_dept":"math","courses_avg":97.09,"courses_instructor":"","courses_id":"541"},{"courses_dept":"math","courses_avg":97.09,"courses_instructor":"laba, izabella","courses_id":"541"},{"courses_dept":"eece","courses_avg":98.75,"courses_instructor":"","courses_id":"541"},{"courses_dept":"eece","courses_avg":98.75,"courses_instructor":"coria, lino","courses_id":"541"},{"courses_dept":"epse","courses_avg":97.69,"courses_instructor":"grow, laura","courses_id":"549"},{"courses_dept":"cnps","courses_avg":97.47,"courses_instructor":"","courses_id":"574"},{"courses_dept":"cnps","courses_avg":97.47,"courses_instructor":"neault, roberta a","courses_id":"574"},{"courses_dept":"cnps","courses_avg":99.19,"courses_instructor":"cox, daniel","courses_id":"574"},{"courses_dept":"nurs","courses_avg":98.58,"courses_instructor":"","courses_id":"578"},{"courses_dept":"nurs","courses_avg":98.58,"courses_instructor":"","courses_id":"578"},{"courses_dept":"nurs","courses_avg":98.5,"courses_instructor":"","courses_id":"578"},{"courses_dept":"nurs","courses_avg":98.5,"courses_instructor":"burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth","courses_id":"578"},{"courses_dept":"nurs","courses_avg":97.53,"courses_instructor":"","courses_id":"578"},{"courses_dept":"nurs","courses_avg":97.53,"courses_instructor":"burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth","courses_id":"578"},{"courses_dept":"nurs","courses_avg":97.33,"courses_instructor":"","courses_id":"591"},{"courses_dept":"nurs","courses_avg":97.33,"courses_instructor":"brew, nancy","courses_id":"591"},{"courses_dept":"epse","courses_avg":97.09,"courses_instructor":"","courses_id":"596"},{"courses_dept":"epse","courses_avg":97.09,"courses_instructor":"kishor, nand","courses_id":"596"},{"courses_dept":"crwr","courses_avg":98,"courses_instructor":"grady, albert wayne","courses_id":"599"},{"courses_dept":"crwr","courses_avg":98,"courses_instructor":"maillard, keith","courses_id":"599"},{"courses_dept":"epse","courses_avg":97.67,"courses_instructor":"porath, marion","courses_id":"606"}]
+}

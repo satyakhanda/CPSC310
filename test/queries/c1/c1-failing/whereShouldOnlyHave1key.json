@@ -1,0 +1,22 @@
+{
+    "title": "where should have 1 key has 2",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 90
+            },
+            "LT": {
+                "courses_avg" : 100
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

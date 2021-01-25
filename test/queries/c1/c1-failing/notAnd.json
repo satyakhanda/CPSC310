@@ -1,0 +1,33 @@
+{
+    "title": "notting an AND",
+    "query": {
+        "WHERE": {
+            "NOT":
+            {
+                "AND": [
+                    {
+                        "GT": {
+                            "courses_avg":50
+                        }
+                    },
+                    {
+                        "LT" : {
+                            "courses_avg" : 100
+                        }
+                    }
+                ]
+            }
+
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"lfs","courses_id":"100","courses_avg":0},{"courses_dept":"lfs","courses_id":"100","courses_avg":0},{"courses_dept":"frst","courses_id":"202","courses_avg":0},{"courses_dept":"wood","courses_id":"475","courses_avg":1},{"courses_dept":"busi","courses_id":"330","courses_avg":4},{"courses_dept":"busi","courses_id":"330","courses_avg":4},{"courses_dept":"fopr","courses_id":"362","courses_avg":4.5},{"courses_dept":"civl","courses_id":"403","courses_avg":33},{"courses_dept":"phil","courses_id":"120","courses_avg":33.2},{"courses_dept":"hist","courses_id":"102","courses_avg":34},{"courses_dept":"educ","courses_id":"172","courses_avg":39.03},{"courses_dept":"educ","courses_id":"172","courses_avg":39.03},{"courses_dept":"chbe","courses_id":"477","courses_avg":42},{"courses_dept":"chem","courses_id":"315","courses_avg":42.5},{"courses_dept":"busi","courses_id":"398","courses_avg":42.64},{"courses_dept":"busi","courses_id":"398","courses_avg":42.64},{"courses_dept":"psyc","courses_id":"314","courses_avg":43.33},{"courses_dept":"chbe","courses_id":"477","courses_avg":44.88},{"courses_dept":"hist","courses_id":"102","courses_avg":46.33},{"courses_dept":"hist","courses_id":"102","courses_avg":46.33},{"courses_dept":"busi","courses_id":"444","courses_avg":46.5},{"courses_dept":"math","courses_id":"180","courses_avg":46.52},{"courses_dept":"frst","courses_id":"231","courses_avg":46.59},{"courses_dept":"comm","courses_id":"293","courses_avg":46.71},{"courses_dept":"busi","courses_id":"460","courses_avg":46.95},{"courses_dept":"hist","courses_id":"102","courses_avg":47.13},{"courses_dept":"lled","courses_id":"200","courses_avg":47.29},{"courses_dept":"lled","courses_id":"200","courses_avg":47.82},{"courses_dept":"lled","courses_id":"200","courses_avg":48.9},{"courses_dept":"comm","courses_id":"293","courses_avg":49.07},{"courses_dept":"frst","courses_id":"231","courses_avg":49.14},{"courses_dept":"hist","courses_id":"102","courses_avg":49.15},{"courses_dept":"busi","courses_id":"398","courses_avg":49.17},{"courses_dept":"civl","courses_id":"406","courses_avg":49.25},{"courses_dept":"busi","courses_id":"344","courses_avg":49.47},{"courses_dept":"busi","courses_id":"344","courses_avg":49.47},{"courses_dept":"lled","courses_id":"200","courses_avg":49.73},{"courses_dept":"lled","courses_id":"200","courses_avg":49.86},{"courses_dept":"math","courses_id":"180","courses_avg":49.95},{"courses_dept":"psyc","courses_id":"315","courses_avg":50},{"courses_dept":"chbe","courses_id":"474","courses_avg":50},{"courses_dept":"busi","courses_id":"441","courses_avg":50}]
+}

@@ -1,0 +1,46 @@
+{
+    "title": "Unexpected response status 400: Invalid key in GROUP",
+    "query":{
+        "WHERE": {
+          "ADN": [
+            {
+              "IS": {
+                "rooms_furniture": "*Tables*"
+              }
+            },
+            {
+              "GT": {
+                "rooms_seats": 150
+              }
+            }
+          ]
+        },
+        "OPTIONS": {
+          "COLUMNS": [
+            "rooms_name",
+            "maxSeats"
+          ],
+          "ORDER": {
+            "dir": "DOWN",
+            "keys": [
+              "maxSeats"
+            ]
+          }
+        },
+        "TRANSFORMATIONS": {
+          "GROUP": [
+            "rooms_shortname"
+          ],
+          "APPLY": [
+            {
+              "maxSeats": {
+                "MAX": "rooms_seats",
+                "MIN": "room_addresses"
+              }
+            }
+          ]
+        }
+      },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

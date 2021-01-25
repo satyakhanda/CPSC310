@@ -1,0 +1,21 @@
+{
+    "title": "Invalid Filler Key",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "G": {
+                    "courses_pass": 1
+                }
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

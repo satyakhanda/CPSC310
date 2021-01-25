@@ -1,0 +1,19 @@
+{
+    "title": "1",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_title": "biostatistics"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_title"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"spha","courses_avg":75.7,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":75.7,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":78.5,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":78.5,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":80.96,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":80.96,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.08,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.08,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.29,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.29,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.85,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.85,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.88,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":82.88,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":83.3,"courses_title":"biostatistics"},{"courses_dept":"spha","courses_avg":83.3,"courses_title":"biostatistics"}]}

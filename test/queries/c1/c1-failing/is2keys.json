@@ -1,0 +1,45 @@
+{
+    "title": "Unexpected response status 400: IS should only have 1 key, has 2",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 90
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_dept": "adhe",
+                                "courses_avg" : 93
+                            }
+                        },
+                        {
+                            "LT" : {
+                                "courses_avg" : 96
+                            }
+                        }
+
+                    ]
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

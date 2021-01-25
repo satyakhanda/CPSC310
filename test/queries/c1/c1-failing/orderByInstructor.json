@@ -1,0 +1,39 @@
+{
+    "title": "Order by instructor",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 90
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_dept": "adhe"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg",
+                "courses_instructor"
+            ],
+            "ORDER": "courses_instructor"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"rhsc","courses_id":"501","courses_avg":95,"courses_instructor":""},{"courses_dept":"psyc","courses_id":"501","courses_avg":95,"courses_instructor":""},{"courses_dept":"obst","courses_id":"549","courses_avg":95,"courses_instructor":""},{"courses_dept":"nurs","courses_id":"424","courses_avg":95,"courses_instructor":""},{"courses_dept":"musc","courses_id":"553","courses_avg":95,"courses_instructor":""},{"courses_dept":"musc","courses_id":"553","courses_avg":95,"courses_instructor":""},{"courses_dept":"musc","courses_id":"553","courses_avg":95,"courses_instructor":""},{"courses_dept":"mtrl","courses_id":"599","courses_avg":95,"courses_instructor":""},{"courses_dept":"mtrl","courses_id":"564","courses_avg":95,"courses_instructor":""},{"courses_dept":"math","courses_id":"532","courses_avg":95,"courses_instructor":""},{"courses_dept":"math","courses_id":"532","courses_avg":95,"courses_instructor":""},{"courses_dept":"kin","courses_id":"500","courses_avg":95,"courses_instructor":""},{"courses_dept":"kin","courses_id":"500","courses_avg":95,"courses_instructor":""},{"courses_dept":"kin","courses_id":"499","courses_avg":95,"courses_instructor":""},{"courses_dept":"epse","courses_id":"682","courses_avg":95,"courses_instructor":""},{"courses_dept":"edcp","courses_id":"473","courses_avg":95,"courses_instructor":""},{"courses_dept":"econ","courses_id":"516","courses_avg":95,"courses_instructor":""},{"courses_dept":"crwr","courses_id":"599","courses_avg":95,"courses_instructor":""},{"courses_dept":"crwr","courses_id":"599","courses_avg":95,"courses_instructor":""},{"courses_dept":"cpsc","courses_id":"589","courses_avg":95,"courses_instructor":""},{"courses_dept":"cpsc","courses_id":"589","courses_avg":95,"courses_instructor":""},{"courses_dept":"cnps","courses_id":"535","courses_avg":95,"courses_instructor":""},{"courses_dept":"bmeg","courses_id":"597","courses_avg":95,"courses_instructor":""},{"courses_dept":"adhe","courses_id":"330","courses_avg":91.33,"courses_instructor":""},{"courses_dept":"adhe","courses_id":"330","courses_avg":90.85,"courses_instructor":""},{"courses_dept":"adhe","courses_id":"329","courses_avg":90.02,"courses_instructor":""},{"courses_dept":"crwr","courses_id":"599","courses_avg":95,"courses_instructor":"acheson, alison"},{"courses_dept":"adhe","courses_id":"330","courses_avg":90.72,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"330","courses_avg":91.33,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"330","courses_avg":90.5,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"330","courses_avg":90.17,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"330","courses_avg":91.48,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"330","courses_avg":91.29,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"329","courses_avg":90.82,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"329","courses_avg":92.54,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"329","courses_avg":96.11,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"adhe","courses_id":"329","courses_avg":93.33,"courses_instructor":"bishundayal, deonarine"},{"courses_dept":"sowk","courses_id":"570","courses_avg":95,"courses_instructor":"clark, natalie"},{"courses_dept":"psyc","courses_id":"501","courses_avg":95,"courses_instructor":"de longis, anita"},{"courses_dept":"mtrl","courses_id":"564","courses_avg":95,"courses_instructor":"dixon, david"},{"courses_dept":"bmeg","courses_id":"597","courses_avg":95,"courses_instructor":"dumont, guy a"},{"courses_dept":"adhe","courses_id":"412","courses_avg":90.18,"courses_instructor":"falk, clifford"},{"courses_dept":"econ","courses_id":"516","courses_avg":95,"courses_instructor":"gallipoli, giovanni"},{"courses_dept":"crwr","courses_id":"599","courses_avg":95,"courses_instructor":"galloway, steve"},{"courses_dept":"crwr","courses_id":"599","courses_avg":95,"courses_instructor":"graefe, sara"},{"courses_dept":"musc","courses_id":"553","courses_avg":95,"courses_instructor":"langager, graeme"},{"courses_dept":"musc","courses_id":"553","courses_avg":95,"courses_instructor":"langager, graeme"},{"courses_dept":"musc","courses_id":"553","courses_avg":95,"courses_instructor":"langager, graeme"},{"courses_dept":"crwr","courses_id":"599","courses_avg":95,"courses_instructor":"medved, maureen"},{"courses_dept":"edcp","courses_id":"473","courses_avg":95,"courses_instructor":"petrina, stephen"},{"courses_dept":"nurs","courses_id":"424","courses_avg":95,"courses_instructor":"phillips, craig"},{"courses_dept":"cnps","courses_id":"535","courses_avg":95,"courses_instructor":"schultz, izabela"},{"courses_dept":"crwr","courses_id":"599","courses_avg":95,"courses_instructor":"svendsen, linda jane"},{"courses_dept":"epse","courses_id":"606","courses_avg":95,"courses_instructor":"vadeboncoeur, jennifer"},{"courses_dept":"adhe","courses_id":"412","courses_avg":90.16,"courses_instructor":"vanwynsberghe, robert"},{"courses_dept":"epse","courses_id":"682","courses_avg":95,"courses_instructor":"zumbo, bruno"}]
+}

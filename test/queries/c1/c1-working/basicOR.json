@@ -1,0 +1,4084 @@
+{
+    "title": "Basic OR json",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "IS": {
+                        "courses_instructor": "tim*"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "hist"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_instructor"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result":[
+        {
+            "courses_dept":"frst",
+            "courses_instructor":"timko, joleen"
+        },
+        {
+            "courses_dept":"frst",
+            "courses_instructor":"timko, joleen"
+        },
+        {
+            "courses_dept":"frst",
+            "courses_instructor":"timko, joleen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"vickers, daniel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"vickers, daniel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"vickers, daniel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"peterson, glen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"byrne, jeffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"peterson, glen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roberts, frank"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"peterson, glen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"byrne, jeffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"peterson, glen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy;tba"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy;meola, david andrew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paterson, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy;meola, david andrew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy;lloyd, naomi"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paterson, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"prange, sebastian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nappi, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"laursen, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"glassheim, eagle;loo, tina merrill"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bronfman, alejandra"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nappi, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige;thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bronfman, alejandra"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"horton, chelsea"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"davis, brandon cody"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"davis, brandon cody"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"davis, brandon cody"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"glassheim, eagle"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"davis, brandon cody"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"davis, brandon cody"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"glassheim, eagle"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"glassheim, eagle"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"glassheim, eagle"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"davis, brandon cody"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"cawley, susan;ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"edwards, gail"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ishiguro, laura"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel;quiney, linda"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill;mcdonald, robert aj"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill;mcdonald, robert aj"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel;mcdonald, robert aj"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ishiguro, laura"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"loo, tina merrill;myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"morton, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"stewart, ian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nappi, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"shapiro, adam"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wright, katharine"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"beatty, john henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"trim, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"richardson, alan walter"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"semczyszyn, nola"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"prange, sebastian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mayer, tara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mayer, tara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mayer, tara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"prange, sebastian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"prange, sebastian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"prange, sebastian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mcdonald, robert aj"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ishiguro, laura"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ishiguro, laura"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"edwards, gail"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mcdonald, robert aj"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mcdonald, robert aj"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ishiguro, laura"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ishiguro, laura"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lovejoy, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"morton, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"byrne, jeffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"stewart, ian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"macarthur, julie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dale, clare"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mayer, tara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"mayer, tara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"greenberg, devorah"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"whitehead, cameron ean alfred"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lloyd, naomi"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"corbett, kenneth"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lloyd, naomi"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bil, geoffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"silver, lara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"silver, lara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"silver, lara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"silver, lara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lovejoy, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lennox, jeffers"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lennox, jeffers"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"grittner, colin"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"newell, dianne c"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"adcock, christina"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"edwards, gail"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"borys, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"edwards, gail"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"newell, dianne c"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"silver, lara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"borys, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"edwards, gail"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"quiney, linda"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"quiney, linda"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"waddell, ian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"quiney, linda"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nellis, eric guest"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"vickers, daniel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nellis, eric guest"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"van riemsdijk, tatiana"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"vickers, daniel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nellis, eric guest"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"van riemsdijk, tatiana"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"van riemsdijk, tatiana"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nellis, eric guest"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nellis, eric guest"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nellis, eric guest"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"van riemsdijk, tatiana"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"van riemsdijk, tatiana"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gorsuch, anne"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"glassheim, eagle"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"denning, andrew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"denning, andrew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bronfman, alejandra"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bronfman, alejandra"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"booker, courtney"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard matthew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"booker, courtney"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"booker, courtney"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"booker, courtney"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"unger, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"fudge, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard matthew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"fudge, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"christopoulos, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"fudge, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"pollard, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"safier, neil"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"safier, neil"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"safier, neil"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"safier, neil"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"johnson, eric"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"fudge, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"johnson, eric"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"fudge, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"fudge, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"denning, andrew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"denning, andrew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"denning, andrew"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"cairns, kelly lynn"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"cairns, kelly lynn"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bolz, cedric"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bolz, cedric"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lanthier, michael"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"green, colin robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"green, colin robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"green, colin robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"shin, leo"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"shin, leo"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"shin, leo"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nappi, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thompson, malcolm"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"shin, leo"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nappi, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"roosa, john"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kojevnikov, alexei"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"richardson, alan walter"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"schabas, margaret"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"schabas, margaret"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"hepburn, brian"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nanay, bence"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"schabas, margaret"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"beatty, john henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"beatty, john henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brain, robert"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"byrne, jeffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"byrne, jeffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"byrne, jeffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"byrne, jeffrey"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"wang, jessica"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gorsuch, anne"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gorsuch, anne;myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"myers, tamara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"miller, bradley"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bolz, cedric"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sens, allen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sens, allen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sens, allen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w;gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w;gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w;gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w;gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"evans, heidi"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"timofiiv, vitaliy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w;gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"gossen, david"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"egerton, george w"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"silver, lara"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"eidelman, jay"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"eidelman, jay"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"eidelman, jay"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"eidelman, jay"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"meen, sharon"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"menkis, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"menkis, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"eidelman, jay"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"menkis, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"menkis, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"eidelman, jay"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"meen, sharon"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"menkis, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"menkis, richard"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"eidelman, jay"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"friedrichs, christopher"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"dixon, joy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, steven hugh"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"french, william earl"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"french, william earl"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"french, william earl"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"french, william earl"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"sindelar, arlene marie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"yu, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kato, naoko"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"madokoro, laura marion"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, karin"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"yu, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"yu, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"yu, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"kato, naoko"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"yu, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"yu, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"lee, karin"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"yu, henry"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"nappi, carla"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"brook, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"peterson, glen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"cheek, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"cheek, timothy"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"peterson, glen"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"raibmon, paige"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bronfman, alejandra"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"thrush, coll"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"safier, neil"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"paris, leslie"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"ducharme, michel"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bronfman, alejandra"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"booker, courtney"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"bronfman, alejandra"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":"french, william earl"
+        },
+        {
+            "courses_dept":"hist",
+            "courses_instructor":""
+        },
+        {
+            "courses_dept":"math",
+            "courses_instructor":"timar, adam"
+        }
+    ]
+}

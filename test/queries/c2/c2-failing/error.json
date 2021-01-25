@@ -1,0 +1,31 @@
+{
+    "title": "Unexpected response status 400: Keys in COLUMNS must be in GROUP or APPLY when TRANSFORMATIONS is present",
+    "query":{
+        "WHERE": {
+            "GT": {
+                "courses_avg": 90
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_instructor",
+                "overallAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ],
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "GROUP must be a non-empty array"
+}

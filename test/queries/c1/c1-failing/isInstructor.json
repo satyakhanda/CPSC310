@@ -1,0 +1,111 @@
+{
+    "title": "1",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_instructor": "kiczales, gregor"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_instructor",
+                "courses_uuid"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 71.07,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "1248"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 73.13,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "1249"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 85.11,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "1254"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 77.43,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "43188"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 71.4,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "46653"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 72.58,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "46654"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 70.11,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "49850"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 77.69,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "61083"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 73.53,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "61084"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 70.78,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "62342"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 84.91,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "62346"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 77.11,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "63245"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 70.75,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "72319"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 76.98,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "72322"
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 74.24,
+            "courses_instructor": "kiczales, gregor",
+            "courses_uuid": "83389"
+        }
+    ]
+}

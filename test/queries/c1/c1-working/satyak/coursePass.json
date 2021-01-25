@@ -1,0 +1,777 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_audit": 9
+            }
+        },
+        "WHERE" : {
+            "EQ" : {
+                "courses_pass": 100
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_title",
+                "courses_audit",
+                "courses_pass"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept":"busi",
+            "courses_avg":59.04,
+            "courses_title":"found re apprai",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"busi",
+            "courses_avg":59.04,
+            "courses_title":"found re apprai",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":63.6,
+            "courses_title":"math proof",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":63.72,
+            "courses_title":"linear systems",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":65.21,
+            "courses_title":"princpl macrecon",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"astu",
+            "courses_avg":65.37,
+            "courses_title":"can,japn&pc poli",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":65.42,
+            "courses_title":"linear systems",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":66.17,
+            "courses_title":"calculus 3",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"mech",
+            "courses_avg":67.17,
+            "courses_title":"mech of material",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"civl",
+            "courses_avg":68.61,
+            "courses_title":"matrx struc anly",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"psyc",
+            "courses_avg":68.68,
+            "courses_title":"motivation",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"psyc",
+            "courses_avg":68.68,
+            "courses_title":"motivation",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"psyc",
+            "courses_avg":69.29,
+            "courses_title":"psychlgy sport",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"psyc",
+            "courses_avg":69.29,
+            "courses_title":"psychlgy sport",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":69.38,
+            "courses_title":"multivrbl calc",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"mech",
+            "courses_avg":69.43,
+            "courses_title":"heat transfer i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fnh",
+            "courses_avg":69.44,
+            "courses_title":"nutr conc & cont",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"biol",
+            "courses_avg":69.48,
+            "courses_title":"vascular plants",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"biol",
+            "courses_avg":69.48,
+            "courses_title":"vascular plants",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":69.93,
+            "courses_title":"calculus 3",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":70.27,
+            "courses_title":"commercial law",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"busi",
+            "courses_avg":70.3,
+            "courses_title":"cptl mrkts&rl es",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":70.31,
+            "courses_title":"int microecon ii",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":70.31,
+            "courses_title":"int microecon ii",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":70.38,
+            "courses_title":"int calc ap lf s",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":70.54,
+            "courses_title":"int microecon ii",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":70.76,
+            "courses_title":"busn fundamental",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"phys",
+            "courses_avg":70.84,
+            "courses_title":"thermal phys i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"phys",
+            "courses_avg":70.84,
+            "courses_title":"thermal phys i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"cpsc",
+            "courses_avg":70.92,
+            "courses_title":"comp hard&os",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"clst",
+            "courses_avg":70.95,
+            "courses_title":"ancient greece",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":71.18,
+            "courses_title":"alg coding crypt",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":71.23,
+            "courses_title":"int calc ap lf s",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":71.37,
+            "courses_title":"dff calc ap c&ss",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":71.53,
+            "courses_title":"intro literature",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":71.61,
+            "courses_title":"commercial law",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"cpsc",
+            "courses_avg":71.66,
+            "courses_title":"internet comp",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"phil",
+            "courses_avg":71.73,
+            "courses_title":"intro philosophy",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"busi",
+            "courses_avg":71.77,
+            "courses_title":"intr busnss law",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":72.06,
+            "courses_title":"df calc ap ph sc",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":72.06,
+            "courses_title":"intro to finance",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"busi",
+            "courses_avg":72.08,
+            "courses_title":"cptl mrkts&rl es",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"geob",
+            "courses_avg":72.1,
+            "courses_title":"cartography",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fmst",
+            "courses_avg":72.13,
+            "courses_title":"fmly human dvlpm",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"math",
+            "courses_avg":72.37,
+            "courses_title":"int calc ap c&ss",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chem",
+            "courses_avg":72.43,
+            "courses_title":"adv org life sc",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chem",
+            "courses_avg":72.43,
+            "courses_title":"adv org life sc",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"soci",
+            "courses_avg":72.52,
+            "courses_title":"soci of family",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"soci",
+            "courses_avg":72.52,
+            "courses_title":"soci of family",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"bioc",
+            "courses_avg":72.63,
+            "courses_title":"proteins",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"bioc",
+            "courses_avg":72.63,
+            "courses_title":"proteins",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"thtr",
+            "courses_avg":73.1,
+            "courses_title":"intro to theatre",
+            "courses_audit":2,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"thtr",
+            "courses_avg":73.1,
+            "courses_title":"intro to theatre",
+            "courses_audit":1,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fist",
+            "courses_avg":73.21,
+            "courses_title":"stdy genre/perio",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"civl",
+            "courses_avg":73.72,
+            "courses_title":"fluid mech i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":73.81,
+            "courses_title":"18th cent genre",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"cpsc",
+            "courses_avg":73.83,
+            "courses_title":"comptn, progrmng",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"stat",
+            "courses_avg":73.99,
+            "courses_title":"intr probability",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"engl",
+            "courses_avg":74.15,
+            "courses_title":"intro literature",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":74.22,
+            "courses_title":"intrm micro anly",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"hist",
+            "courses_avg":74.23,
+            "courses_title":"europe 1900-50",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"bioc",
+            "courses_avg":74.3,
+            "courses_title":"contmp bioc rsrc",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"bioc",
+            "courses_avg":74.3,
+            "courses_title":"contmp bioc rsrc",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fist",
+            "courses_avg":74.54,
+            "courses_title":"stdy genre/perio",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chbe",
+            "courses_avg":74.84,
+            "courses_title":"unit oper i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chbe",
+            "courses_avg":74.84,
+            "courses_title":"unit oper i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chem",
+            "courses_avg":74.92,
+            "courses_title":"instrl anly chem",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chem",
+            "courses_avg":74.92,
+            "courses_title":"instrl anly chem",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"cpsc",
+            "courses_avg":74.97,
+            "courses_title":"intro comp sys",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"lled",
+            "courses_avg":75.06,
+            "courses_title":"intro acad writ",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fmst",
+            "courses_avg":75.16,
+            "courses_title":"fam resrc mngmt",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"ling",
+            "courses_avg":75.18,
+            "courses_title":"ling thry&anl i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"ling",
+            "courses_avg":75.18,
+            "courses_title":"ling thry&anl i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":75.2,
+            "courses_title":"intro to finance",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"asia",
+            "courses_avg":75.34,
+            "courses_title":"chinese cinema",
+            "courses_audit":1,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"asia",
+            "courses_avg":75.34,
+            "courses_title":"chinese cinema",
+            "courses_audit":1,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":75.47,
+            "courses_title":"int microecon ii",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":75.47,
+            "courses_title":"int microecon ii",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"musc",
+            "courses_avg":75.78,
+            "courses_title":"hist music i",
+            "courses_audit":1,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"biol",
+            "courses_avg":75.82,
+            "courses_title":"vert struct&func",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"biol",
+            "courses_avg":75.82,
+            "courses_title":"vert struct&func",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":75.93,
+            "courses_title":"intro to finance",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"span",
+            "courses_avg":76.01,
+            "courses_title":"advanced span i",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chem",
+            "courses_avg":76.16,
+            "courses_title":"org chem lab",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fnh",
+            "courses_avg":76.18,
+            "courses_title":"explor our food",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"biol",
+            "courses_avg":77.37,
+            "courses_title":"lab animal physi",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"busi",
+            "courses_avg":77.72,
+            "courses_title":"prin audit",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fmst",
+            "courses_avg":77.73,
+            "courses_title":"fam resrc mngmt",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chbe",
+            "courses_avg":77.74,
+            "courses_title":"proc dyn&control",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"chbe",
+            "courses_avg":77.74,
+            "courses_title":"proc dyn&control",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"lled",
+            "courses_avg":78.18,
+            "courses_title":"intro acad writ",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"germ",
+            "courses_avg":78.8,
+            "courses_title":"inter germ ii",
+            "courses_audit":2,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"adhe",
+            "courses_avg":78.9,
+            "courses_title":"adul educ",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"biol",
+            "courses_avg":79.35,
+            "courses_title":"intgrt'd bio lab",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"biol",
+            "courses_avg":79.35,
+            "courses_title":"intgrt'd bio lab",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fnh",
+            "courses_avg":79.72,
+            "courses_title":"hum nut lif span",
+            "courses_audit":3,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"fnh",
+            "courses_avg":79.72,
+            "courses_title":"hum nut lif span",
+            "courses_audit":3,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"basc",
+            "courses_avg":79.86,
+            "courses_title":"anlyz bus procss",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":81.33,
+            "courses_title":"intro to finance",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"crwr",
+            "courses_avg":81.36,
+            "courses_title":"child & yng adlt",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"crwr",
+            "courses_avg":81.36,
+            "courses_title":"child & yng adlt",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":81.42,
+            "courses_title":"land economics",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"econ",
+            "courses_avg":81.42,
+            "courses_title":"land economics",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"busi",
+            "courses_avg":81.75,
+            "courses_title":"info systems",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"comm",
+            "courses_avg":83.52,
+            "courses_title":"intro to finance",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"babs",
+            "courses_avg":85.24,
+            "courses_title":"data anly&utiliz",
+            "courses_audit":0,
+            "courses_pass":100
+        },
+        {
+            "courses_dept":"etec",
+            "courses_avg":89.68,
+            "courses_title":"res meth educ",
+            "courses_audit":0,
+            "courses_pass":100
+        }
+    ]
+}

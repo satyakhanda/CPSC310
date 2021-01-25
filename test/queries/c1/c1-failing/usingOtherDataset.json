@@ -1,0 +1,32 @@
+{
+    "title": "Unexpected response status 400: COLUMNS must be a non-empty array",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "NOT": {
+                        "IS": {
+                            "courses2_dept": "*sc*"
+                        },
+                        "IS": {
+                            "courses2_dept": "*sowk"
+                        }
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses2_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses2_avg"
+            ],
+            "ORDER": "courses2_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95},{"courses2_avg":95}]
+}

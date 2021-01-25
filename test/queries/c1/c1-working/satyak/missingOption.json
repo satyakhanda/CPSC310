@@ -1,0 +1,23 @@
+{
+    "title": "Missing options",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "AND": [
+                    {
+                        "LT": {
+                            "courses_avg": 90
+                        }
+                    },
+                    {
+                        "IS": {
+                            "courses_dept": "cpsc"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

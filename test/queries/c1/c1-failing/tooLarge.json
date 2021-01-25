@@ -1,0 +1,16 @@
+{
+    "title": "Too Large Error",
+    "query": {
+        "WHERE" : {},
+        "OPTIONS" : {
+            "COLUMNS" : [
+                "courses_avg",
+                "courses_instructor"
+            ],
+            "ORDER" : "courses_avg"
+        }
+
+    },
+    "isQueryValid": false,
+    "result": "ResultTooLargeError"
+}

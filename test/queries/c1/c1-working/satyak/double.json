@@ -1,0 +1,44 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        },
+        "WHERE": {
+            "IS": {
+                "courses_uuid": "1334*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept":"cpsc",
+            "courses_avg":76.31
+        },
+        {
+            "courses_dept":"civl",
+            "courses_avg":81.63
+        },
+        {
+            "courses_dept":"civl",
+            "courses_avg":81.63
+        }
+    ]
+}

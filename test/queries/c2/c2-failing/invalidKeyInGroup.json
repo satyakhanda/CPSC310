@@ -1,0 +1,26 @@
+{
+    "title": "Unexpected response status 400: Invalid key in GROUP",
+    "query":{
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "",
+                "overallAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                ""
+            ],
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "GROUP must be a non-empty array"
+}

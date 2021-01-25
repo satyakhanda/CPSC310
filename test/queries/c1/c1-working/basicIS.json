@@ -1,0 +1,18 @@
+{
+    "title": "Basic IS json",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_instructor": "tim*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_instructor"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"frst","courses_instructor":"timko, joleen"},{"courses_dept":"frst","courses_instructor":"timko, joleen"},{"courses_dept":"frst","courses_instructor":"timko, joleen"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"hist","courses_instructor":"timofiiv, vitaliy"},{"courses_dept":"math","courses_instructor":"timar, adam"}]
+}

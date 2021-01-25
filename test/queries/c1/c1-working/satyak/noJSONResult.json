@@ -1,0 +1,19 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        },
+        "WHERE": {
+            "GT": {
+                "courses_avg": 100
+            }
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}

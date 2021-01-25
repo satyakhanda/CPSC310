@@ -1,0 +1,53 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 90
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_uuid": "1342*"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "NOT" : {
+
+                        "IS": {
+                            "courses_dept": "c*"
+                        }
+
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept":"path",
+            "courses_id":"547",
+            "courses_avg":90.91
+        },
+        {
+            "courses_dept":"path",
+            "courses_id":"547",
+            "courses_avg":90.91
+        }
+    ]
+}

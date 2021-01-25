@@ -1,0 +1,34 @@
+{
+    "title": "columns overwritten",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "NOT": {
+                        "IS": {
+                            "courses_dept": "*sowk"
+                        }
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg",
+            "COLUMNS": [
+                "courses_uuid"
+            ],
+            "ORDER": "courses_uuid"
+
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_uuid":"10016"},{"courses_uuid":"10017"},{"courses_uuid":"10582"},{"courses_uuid":"1385"},{"courses_uuid":"1386"},{"courses_uuid":"16690"},{"courses_uuid":"16691"},{"courses_uuid":"19490"},{"courses_uuid":"19491"},{"courses_uuid":"26257"},{"courses_uuid":"2676"},{"courses_uuid":"28349"},{"courses_uuid":"28350"},{"courses_uuid":"28877"},{"courses_uuid":"28878"},{"courses_uuid":"29971"},{"courses_uuid":"29972"},{"courses_uuid":"43501"},{"courses_uuid":"43502"},{"courses_uuid":"46406"},{"courses_uuid":"46407"},{"courses_uuid":"49773"},{"courses_uuid":"49774"},{"courses_uuid":"59530"},{"courses_uuid":"71171"},{"courses_uuid":"72706"},{"courses_uuid":"75158"},{"courses_uuid":"76362"},{"courses_uuid":"81354"},{"courses_uuid":"86831"},{"courses_uuid":"86974"},{"courses_uuid":"86975"},{"courses_uuid":"92881"},{"courses_uuid":"93963"},{"courses_uuid":"93964"},{"courses_uuid":"94900"},{"courses_uuid":"94901"},{"courses_uuid":"96195"},{"courses_uuid":"96196"},{"courses_uuid":"98843"}]
+}

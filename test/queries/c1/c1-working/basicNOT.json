@@ -1,0 +1,19 @@
+{
+    "title": "Basic NOT json",
+    "query": {
+        "WHERE": {
+            "NOT" :{
+                "GT": {
+                    "courses_avg": 2
+                }
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+"result":[{"courses_dept":"frst"},{"courses_dept":"lfs"},{"courses_dept":"lfs"},{"courses_dept":"wood"}]
+}

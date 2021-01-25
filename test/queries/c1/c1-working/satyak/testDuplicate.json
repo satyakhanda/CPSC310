@@ -1,0 +1,11 @@
+{
+    "title": "Test Duplicate",
+    "query": {
+        "title": "Very invalid query",
+        "query": { "OPTIONS": {} },
+        "isQueryValid": false,
+        "result": "InsightError"
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

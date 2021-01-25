@@ -1,0 +1,25 @@
+{
+    "title": "Unexpected response status 400: All ORDER keys must be in COLUMNS",
+    "query":{
+        "WHERE": {
+            "IS": {
+                "courses_dept": "civl"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "courses_title",
+                "courses_dept"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "coursesavg"
+                ]
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "Unexpected response status 400: All ORDER keys must be in COLUMNS"
+}

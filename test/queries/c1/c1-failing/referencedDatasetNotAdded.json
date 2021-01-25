@@ -1,0 +1,32 @@
+{
+    "title": "Unexpected response status 400: Referenced dataset \"courses21\" not added yet",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "NOT": {
+                        "IS": {
+                            "courses21_dept": "*sc*"
+                        },
+                        "IS": {
+                            "courses21_dept": "*sowk"
+                        }
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses21_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses21_avg"
+            ],
+            "ORDER": "courses21_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

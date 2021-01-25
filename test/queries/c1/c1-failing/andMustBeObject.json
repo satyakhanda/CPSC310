@@ -1,0 +1,18 @@
+{
+    "title": "andMustBeObject",
+    "query": {
+        "WHERE": {
+            "AND": [
+                ""
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                ""
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

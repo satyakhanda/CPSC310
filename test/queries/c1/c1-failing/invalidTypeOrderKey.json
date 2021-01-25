@@ -1,0 +1,29 @@
+{
+    "title": "Invalid Type Order Key",
+    "query": {
+        "WHERE": {
+            "WHERE": {
+                "GT": {
+                    "courses_avg": 97
+                }
+            },
+            "OPTIONS": {
+                "COLUMNS": [
+                    "courses_dept",
+                    "courses_avg"
+                ],
+                "ORDER": 123
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                123,
+                "courses_id",
+                "courses_avg",
+                "courses_instructor"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

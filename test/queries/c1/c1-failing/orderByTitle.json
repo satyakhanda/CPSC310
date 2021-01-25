@@ -1,0 +1,41 @@
+{
+    "title": "Order by cities",
+    "query": {
+        "WHERE": {
+            "NOT" : {
+                "NOT" : {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 50
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_title": "cities"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_year",
+                "courses_dept",
+                "courses_id",
+                "courses_instructor",
+                "courses_title",
+                "courses_uuid"
+
+            ],
+            "ORDER": "courses_title"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_avg":78.47,"courses_pass":74,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"64180"},{"courses_avg":78.47,"courses_pass":74,"courses_fail":0,"courses_audit":0,"courses_year":2012,"courses_dept":"urst","courses_id":"200","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"64179"},{"courses_avg":75.45,"courses_pass":75,"courses_fail":0,"courses_audit":2,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"62745"},{"courses_avg":75.45,"courses_pass":75,"courses_fail":0,"courses_audit":1,"courses_year":2013,"courses_dept":"urst","courses_id":"200","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"62744"},{"courses_avg":75,"courses_pass":37,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"62741"},{"courses_avg":75,"courses_pass":37,"courses_fail":0,"courses_audit":0,"courses_year":2010,"courses_dept":"urst","courses_id":"200","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"62740"},{"courses_avg":69.34,"courses_pass":35,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"13250"},{"courses_avg":69.34,"courses_pass":35,"courses_fail":0,"courses_audit":0,"courses_year":2009,"courses_dept":"urst","courses_id":"200","courses_instructor":"frost, heather danielle","courses_title":"cities","courses_uuid":"13249"},{"courses_avg":75.33,"courses_pass":69,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"7756"},{"courses_avg":75.33,"courses_pass":69,"courses_fail":0,"courses_audit":0,"courses_year":2008,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"7755"},{"courses_avg":78.3,"courses_pass":73,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"7679"},{"courses_avg":78.3,"courses_pass":73,"courses_fail":0,"courses_audit":0,"courses_year":2014,"courses_dept":"urst","courses_id":"200","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"7678"},{"courses_avg":78.09,"courses_pass":35,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"6805"},{"courses_avg":78.09,"courses_pass":35,"courses_fail":0,"courses_audit":0,"courses_year":2011,"courses_dept":"urst","courses_id":"200","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"6804"},{"courses_avg":75.75,"courses_pass":67,"courses_fail":1,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"538"},{"courses_avg":75.75,"courses_pass":67,"courses_fail":1,"courses_audit":0,"courses_year":2015,"courses_dept":"urst","courses_id":"200","courses_instructor":"wyly, elvin","courses_title":"cities","courses_uuid":"537"},{"courses_avg":77.86,"courses_pass":83,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"97098"},{"courses_avg":77.86,"courses_pass":83,"courses_fail":0,"courses_audit":0,"courses_year":2013,"courses_dept":"geog","courses_id":"250","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"97097"},{"courses_avg":82.32,"courses_pass":76,"courses_fail":0,"courses_audit":2,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"86987"},{"courses_avg":82.32,"courses_pass":76,"courses_fail":0,"courses_audit":1,"courses_year":2012,"courses_dept":"geog","courses_id":"250","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"86986"},{"courses_avg":76.33,"courses_pass":18,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"82630"},{"courses_avg":76.33,"courses_pass":18,"courses_fail":0,"courses_audit":0,"courses_year":2008,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"82629"},{"courses_avg":73.5,"courses_pass":16,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"29062"},{"courses_avg":73.5,"courses_pass":16,"courses_fail":0,"courses_audit":0,"courses_year":2007,"courses_dept":"geog","courses_id":"250","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"29061"},{"courses_avg":69.16,"courses_pass":52,"courses_fail":3,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"28547"},{"courses_avg":69.16,"courses_pass":52,"courses_fail":3,"courses_audit":0,"courses_year":2009,"courses_dept":"geog","courses_id":"250","courses_instructor":"frost, heather danielle","courses_title":"cities","courses_uuid":"28546"},{"courses_avg":77.87,"courses_pass":84,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"28230"},{"courses_avg":77.87,"courses_pass":84,"courses_fail":0,"courses_audit":0,"courses_year":2014,"courses_dept":"geog","courses_id":"250","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"28229"},{"courses_avg":79.09,"courses_pass":65,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"14441"},{"courses_avg":79.09,"courses_pass":65,"courses_fail":0,"courses_audit":0,"courses_year":2015,"courses_dept":"geog","courses_id":"250","courses_instructor":"wyly, elvin","courses_title":"cities","courses_uuid":"14440"},{"courses_avg":75.54,"courses_pass":54,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"11916"},{"courses_avg":75.54,"courses_pass":54,"courses_fail":0,"courses_audit":0,"courses_year":2011,"courses_dept":"geog","courses_id":"250","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"11915"},{"courses_avg":76.63,"courses_pass":56,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"geog","courses_id":"250","courses_instructor":"","courses_title":"cities","courses_uuid":"3459"},{"courses_avg":76.63,"courses_pass":56,"courses_fail":0,"courses_audit":0,"courses_year":2010,"courses_dept":"geog","courses_id":"250","courses_instructor":"wyly, elvin kirk","courses_title":"cities","courses_uuid":"3458"}]
+}

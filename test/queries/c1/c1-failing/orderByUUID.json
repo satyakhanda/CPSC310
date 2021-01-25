@@ -1,0 +1,41 @@
+{
+    "title": "Order by uuid",
+    "query": {
+        "WHERE": {
+            "NOT" : {
+                "NOT" : {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 50
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_uuid": "64180"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_year",
+                "courses_dept",
+                "courses_id",
+                "courses_instructor",
+                "courses_title",
+                "courses_uuid"
+
+            ],
+            "ORDER": "courses_uuid"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_avg":78.47,"courses_pass":74,"courses_fail":0,"courses_audit":0,"courses_year":1900,"courses_dept":"urst","courses_id":"200","courses_instructor":"","courses_title":"cities","courses_uuid":"64180"}]
+}

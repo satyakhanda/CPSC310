@@ -1,0 +1,35 @@
+{
+    "title": "basic eq",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses3_title",
+                "overallAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses3_title"
+            ],
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "AVG": "courses3_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses3_title": "310",
+            "overallAvg": 87.5
+        },
+        {
+            "courses3_title": "210",
+            "overallAvg": 77.25
+        }
+    ]
+}

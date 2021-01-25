@@ -1,0 +1,30 @@
+{
+    "title": "Testing multiple datasets",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "AND": [
+                    {
+                        "GT": {
+                            "courses_avg": 50
+                        }
+                    },
+                    {
+                        "IS": {
+                            "course_dept": "cpsc"
+                        }
+                    }
+                ]
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

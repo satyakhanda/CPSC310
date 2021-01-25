@@ -1,0 +1,22 @@
+{
+    "title": "and should have 1 key has 2",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

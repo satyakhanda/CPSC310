@@ -1,0 +1,38 @@
+{
+    "title": "OR needs to be non-empty array",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "OR": {
+                        "IS": {
+                            "courses_dept": "adhe"
+                        }
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_instructor",
+                "courses_avg",
+                "courses_instructor",
+                "courses_title",
+                "courses_pass",
+                "courses_fail",
+                "courses_audit",
+                "courses_uuid",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

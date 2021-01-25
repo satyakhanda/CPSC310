@@ -1,0 +1,32 @@
+{
+    "title": "Unexpected response status 400: Invalid ORDER type",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "NOT": {
+                        "IS": {
+                            "courses_dept": "*sc*"
+                        },
+                        "IS": {
+                            "courses_dept": "*sowk"
+                        }
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg"
+            ],
+            "ORDER": 1
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,24 @@
+{
+    "title": "NOT has more than one key",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "GT": {
+                    "courses_pass": 1
+                },
+                "IS": {
+                    "courses_dept": "cpsc"
+                }
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Unexpected response status 400: TRANSFORMATIONS missing APPLY",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "overallAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

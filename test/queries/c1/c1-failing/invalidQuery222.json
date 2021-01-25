@@ -1,0 +1,17 @@
+{
+    "title": "and should have 1 key has 2",
+    "query": {
+        "WHERE": [],
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_uuid",
+                "courses_instructor",
+                "courses_year",
+                "courses_avg"
+            ],
+            "ORDER": "courses_year"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

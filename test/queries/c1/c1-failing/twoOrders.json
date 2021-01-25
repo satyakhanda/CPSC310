@@ -1,0 +1,34 @@
+{
+    "title": "2 orders",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "NOT": {
+                        "IS": {
+                            "courses_dept": "*sc*"
+                        },
+                        "IS": {
+                            "courses_dept": "*sowk"
+                        }
+                    }
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "courses_dept"
+            ],
+            "ORDER": "courses_dept",
+            "ORDER" : "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+"result":[{"courses_avg":95,"courses_dept":"rhsc"},{"courses_avg":95,"courses_dept":"psyc"},{"courses_avg":95,"courses_dept":"psyc"},{"courses_avg":95,"courses_dept":"obst"},{"courses_avg":95,"courses_dept":"nurs"},{"courses_avg":95,"courses_dept":"nurs"},{"courses_avg":95,"courses_dept":"musc"},{"courses_avg":95,"courses_dept":"musc"},{"courses_avg":95,"courses_dept":"musc"},{"courses_avg":95,"courses_dept":"musc"},{"courses_avg":95,"courses_dept":"musc"},{"courses_avg":95,"courses_dept":"musc"},{"courses_avg":95,"courses_dept":"mtrl"},{"courses_avg":95,"courses_dept":"mtrl"},{"courses_avg":95,"courses_dept":"mtrl"},{"courses_avg":95,"courses_dept":"math"},{"courses_avg":95,"courses_dept":"math"},{"courses_avg":95,"courses_dept":"kin"},{"courses_avg":95,"courses_dept":"kin"},{"courses_avg":95,"courses_dept":"kin"},{"courses_avg":95,"courses_dept":"epse"},{"courses_avg":95,"courses_dept":"epse"},{"courses_avg":95,"courses_dept":"epse"},{"courses_avg":95,"courses_dept":"edcp"},{"courses_avg":95,"courses_dept":"edcp"},{"courses_avg":95,"courses_dept":"econ"},{"courses_avg":95,"courses_dept":"econ"},{"courses_avg":95,"courses_dept":"crwr"},{"courses_avg":95,"courses_dept":"crwr"},{"courses_avg":95,"courses_dept":"crwr"},{"courses_avg":95,"courses_dept":"crwr"},{"courses_avg":95,"courses_dept":"crwr"},{"courses_avg":95,"courses_dept":"crwr"},{"courses_avg":95,"courses_dept":"crwr"},{"courses_avg":95,"courses_dept":"cpsc"},{"courses_avg":95,"courses_dept":"cpsc"},{"courses_avg":95,"courses_dept":"cnps"},{"courses_avg":95,"courses_dept":"cnps"},{"courses_avg":95,"courses_dept":"bmeg"},{"courses_avg":95,"courses_dept":"bmeg"}]
+}

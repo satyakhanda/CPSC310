@@ -1,0 +1,19 @@
+{
+    "title": "Dataset not added",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "course_avg": 99
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "course_dept",
+                "course_avg"
+            ],
+            "ORDER": "course_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

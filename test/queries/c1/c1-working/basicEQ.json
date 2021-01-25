@@ -1,0 +1,17 @@
+{
+    "title": "Basic EQ json",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"crwr"},{"courses_dept":"epse"},{"courses_dept":"psyc"}]
+}

@@ -1,0 +1,29 @@
+{
+    "title": "Unexpected response status 400: Apply rule should only have 1 key, has 2",
+    "query":{
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "overallAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_title"
+            ],
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "AVG": "courses_avg"
+                    },
+                    "overallAvg1": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "Unexpected response status 400: Apply rule should only have 1 key, has 2"
+}

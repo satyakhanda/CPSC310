@@ -1,0 +1,28 @@
+{
+    "title": "Invalid Filter Key",
+    "query": {
+        "WHERE": {
+            "12": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_dept"
+        }
+    ,
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg",
+                "courses_instructor"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}
